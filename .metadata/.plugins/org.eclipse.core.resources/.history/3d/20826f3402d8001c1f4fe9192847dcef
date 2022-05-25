@@ -1,0 +1,37 @@
+class Student
+{
+	int rollno;
+	String name;
+	float fee;
+	int age;
+	Student(int rollno, String name, float fee, int age)
+	{
+		rollno = rollno;
+		name = name;
+		fee = fee;
+		age = age;
+	}
+	
+	void display()
+	{
+		System.out.println(rollno+ "" +name+ "" +fee);
+	}
+}
+
+public class TestThis1
+{
+	public static void main(String[] args)
+	{
+		Student s1 = new Student(111, "Sita", 5000f, 25);
+		Student s2 = new Student(112, "Ram", 6000f, 28);
+		Student s3 = new Student(113, "Radha", 8000f, 35);
+		Student s4 = new Student(114, "Krishna", 7000f, 45);
+		Student s5= new Student(111, "Vaishnavi", 2000f, 65);
+		
+		s1.display();
+		s2.display();
+		s3.display();
+		s4.display();
+		
+	}
+}

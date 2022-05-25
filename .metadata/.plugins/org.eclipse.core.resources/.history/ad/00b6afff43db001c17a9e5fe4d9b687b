@@ -1,0 +1,16 @@
+
+public class Day8 {
+
+	private static final String i1 = null;
+
+	public static void main(String[] args, String i) {
+		
+		for (int i1=3; i1<=50; i1++)
+			if(i1 == 39);
+			
+			System.out.println(i1 + "");
+		
+		}
+	}
+
+

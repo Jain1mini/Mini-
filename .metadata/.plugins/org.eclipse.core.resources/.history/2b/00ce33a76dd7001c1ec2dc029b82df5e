@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.GregorianCalendar;
+
+public class DateDemo7 {
+
+	public static void main(String[] args) {
+		
+		GregorianCalendar gc = new GregorianCalendar();
+		System.out.println(gc.get(Calendar.DATE));
+	}
+
+}
+
+
+

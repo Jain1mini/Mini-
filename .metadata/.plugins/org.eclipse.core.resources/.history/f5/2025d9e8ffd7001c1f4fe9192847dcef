@@ -1,0 +1,32 @@
+
+public class TestMethod {
+
+	    int val1;
+	    int val2;
+	 
+	    TestMethod()
+	    {
+	        val1 = 10;
+	        val2 = 20;
+	    }
+	 
+	    void printVal(TestMethod obj)
+	    {
+	             System.out.println("val1 = " + obj.val1 + "  val2 = " + obj.val2);
+	    }
+	 
+	    void get()
+	    {
+	           printVal(this);
+	    }
+	}
+                    
+        class Main{
+	    public static void main(String[] args)
+	    {
+	        TestMethod object = new TestMethod();
+	        object.get();
+	    }
+	
+
+}

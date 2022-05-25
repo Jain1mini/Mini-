@@ -1,0 +1,16 @@
+import java.io.*;
+
+import java.time.*;
+import java.util.Date;
+
+public class DateDemo15 {
+
+	public static void main(String[] args) {
+		
+		ZoneDateTime zdt = ZoneDateTime.now();
+		System.out.println(zdt);
+
+	}
+
+}
+

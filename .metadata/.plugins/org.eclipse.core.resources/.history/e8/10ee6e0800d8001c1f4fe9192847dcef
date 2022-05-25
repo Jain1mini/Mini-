@@ -1,0 +1,32 @@
+
+
+	 public class TestMethod
+	{
+	   int val_a;
+	   int val_b;
+	 
+	    //Default constructor
+	   TestMethod()
+	    {
+	        val_a = 10;
+	        val_b = 20;
+	    }
+	 
+	   TestMethod get()
+	    {
+	        return this;
+	    }
+	 
+	   void display()
+	    {
+	         System.out.println("val_a = " + val_a + "  val_b = " + val_b);
+	    }
+	}
+	 
+	class Main{
+	    public static void main(String[] args)
+	    {
+	        TestMethod object = new TestMethod();
+	        object.get().display();
+	    }
+	}

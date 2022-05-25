@@ -1,0 +1,52 @@
+import java.io.*;
+
+	class MyThread extends Thread
+	{
+		public MyThread(String name)
+		{
+			super(name);
+		}
+		public void run()
+		{
+			int coiunt =1;
+			while(true)
+			{
+				int count;
+				System.out.println(count++);
+				try
+				{
+					Thread.sleep(10);
+					
+				}
+				
+				catch(Interrupted Exception e)
+				{
+					System.out.println(e);
+				}
+			}
+		
+		}
+	
+	
+	public class Threadts2 {
+
+	public static void main(String[] args) {
+		
+		MyThread t = new MyThread("My Thread 1");
+		
+		
+		t.start();
+		
+		
+		
+		System.out.println("State "+t.getState());
+		System.out.println("Alive "+t.isAlive());
+		
+           
+	}
+
+}
+	}
+
+
+
